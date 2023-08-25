@@ -1,0 +1,37 @@
+#root {
+  width: 100%;
+  padding: 2rem;
+}
+
+img{
+  width: 200px;
+  margin: 10px;
+}
+
+section{
+  width: 50%;
+}
+
+section:nth-child(2){
+
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.tienda{
+  display: flex;
+  gap: 20px;
+}
+
+.filtros{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+#generos{
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: #1a1a1a;
+  color: whitesmoke;
+}
